@@ -6,6 +6,19 @@ body {
     align-content: center; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     align-content: space-around;
+    background-color: moccasin;
+}
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    width: 700px;
+    list-style-type: none;
+}
+.navItem {
+    padding: 5px;
+    margin: 5px;
 }
 h3 {
     color: coral;
@@ -15,5 +28,7 @@ h3 {
 .container {
     width: 700px;
     border: 2px solid salmon;
-
+    padding: 1em;
+    margin: 2em;
+    background-color: azure;
 }
